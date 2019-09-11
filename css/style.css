@@ -236,7 +236,8 @@
 	}
 
 		ul.default {
-			list-style: none;
+			list-style: disc;
+            padding-left: 1.25em;
 		}
 
 			ul.default li {
@@ -346,7 +347,8 @@
 		}
 
 		ul.list {
-			list-style: none;
+			list-style: disc;
+            padding-left: 1.25em;
 		}
 
 			ul.list li {
