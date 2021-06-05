@@ -66,6 +66,13 @@
 		position: relative;
 		top: 0.5em;
 	}
+    cap {
+		font-size: 0.8em;
+		position: relative;
+		top: -2.0em;
+        text-align: center;
+        font-style: italic;
+	}
 
 	sup {
 		font-size: 0.8em;
@@ -197,6 +204,7 @@
 				display: block;
 				width: 100%;
 			}
+            
         .image.center {
 			display: block;
 			margin: 0 0 2em 0;
@@ -208,6 +216,32 @@
                 margin-right: auto;
                 width: 50%;
 			}
+        .image.small {
+            display: block;
+            margin: 0 0 2em 0;
+        }
+            .image.small img {
+                border: 1px solid #555555;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+				width: 100%;
+                max-width: 600px;
+                height: auto;
+            }
+        .image.middle {
+            display: block;
+            margin: 0 0 2em 0;
+        }
+            .image.middle img {
+                border: 1px solid #555555;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+				width: 100%;
+                max-width: 800px;
+                height: auto;
+            }
          
 
 /* Icon */
